@@ -2,11 +2,11 @@
 
 pypims安装及模拟嘉峪关淹没参考代码
 
-参考步骤：https://jishuzhan.net/article/1945785159780970497   
+具体步骤：https://jishuzhan.net/article/1945785159780970497   
 代码及数据放在压缩包内，请修改文件路径运行。  
 我的计算机操作系统为Windows 10，系统类型是64 位操作系统。
 
-步骤如下：  
+简要步骤如下：  
 
 * **依次安装所需软件**
   Miniconda、Git、Visual Studio、NVIDIA CUDA Toolkit。
