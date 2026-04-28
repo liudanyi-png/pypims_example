@@ -19,11 +19,10 @@ pypims安装及模拟嘉峪关淹没参考代码
   ```
 
 * **修改CmakeLists**
-  当前 CUDA 版本或显卡驱动不再支持 sm_35。因此需要在Pypims项目文件 `./pypims/pypims/CMakeLists.txt` 中，去掉对sm_35的支持，并替换为本机显卡支持的Compute Capability（sm_86）。  
-  CUDA GPU Compute Capability查询网址：https://developer.nvidia.com/cuda-gpus
+  
 
 * **修改cuda_data_bank.cu**
-  在 `./pypims/pypims/lib/src/multi_threading/cuda_data_bank.cu` 代码中，使用了 `HEMI_DEV_CALLABLE_INLINE_MEMBER` 宏，它的作用是用来兼容 GPU 和 CPU 编译环境。而 HEMI 本身不再与新版本 CUDA（>= 11）和 Thrust 完美兼容。再加上我使用的是 CUDA 12.9，在编译时会触发错误，解决方案是手动定义 `thrust::device_vector<GC::Vector3>` 时不要使用 `.resize(n)`。
+ 
 
 * **创建虚拟环境**
   ```bash
