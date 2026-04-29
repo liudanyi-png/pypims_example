@@ -4,8 +4,25 @@ pypims安装及模拟嘉峪关淹没参考代码
 
 具体步骤：https://jishuzhan.net/article/1945785159780970497   
 代码及数据放在压缩包内，请修改文件路径运行。  
-我的计算机操作系统为Windows 10，系统类型是64 位操作系统。
+我的计算机操作系统为Windows 10，系统类型是64 位操作系统。  
+### pypims 本地环境包版本总结清单
 
+| 软件包名称 | 安装版本 | 安装渠道 |
+| :--- | :--- | :--- |
+| **cmake** | 3.31.2 | conda |
+| **GDAL** | 3.4.2 | pip |
+| **rasterio** | 1.2.8 | pip |
+| **Fiona** | 1.8.21 | pip |
+| **numpy** | 1.21.6 | pip |
+| **scipy** | 1.7.3 | pip |
+| **matplotlib** | 3.5.3 | pip |
+| **imageio** | 2.36.0 | pip |
+| **pandas** | 1.3.5 | pip |
+| **pyshp** | 2.3.1 | pip |
+| **Sphinx** | 5.3.0 | pip |
+| **sphinx-rtd-theme** | 2.0.0 | pip |
+| **nbsphinx** | 0.9.7 | pip |
+| **ipykernel** | 6.16.2 | pip |
 简要步骤如下：  
 
 * **依次安装所需软件**
