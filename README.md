@@ -22,7 +22,7 @@ pypims安装及模拟嘉峪关淹没参考代码
 | **Sphinx** | 5.3.0 | pip |
 | **sphinx-rtd-theme** | 2.0.0 | pip |
 | **nbsphinx** | 0.9.7 | pip |
-| **ipykernel** | 6.16.2 | pip |
+| **ipykernel** | 6.16.2 | pip |  
 简要步骤如下：  
 
 * **依次安装所需软件**
