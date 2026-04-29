@@ -24,6 +24,25 @@ pypims安装及模拟嘉峪关淹没参考代码
 | **nbsphinx** | 0.9.7 | pip |
 | **ipykernel** | 6.16.2 | pip |  
   
+
+### pypims 远程服务器环境包版本总结清单 (Linux/Conda)
+
+| 软件包名称 | 安装版本 | 安装渠道 |
+| :--- | :--- | :--- |
+| **cmake** | 3.22.1 | conda |
+| **GDAL** | 3.0.2 | pip |
+| **rasterio** | 1.2.10 | pip |
+| **Fiona** | 1.8.22 | pip |
+| **numpy** | 1.21.5 | pip |
+| **scipy** | 1.7.3 | pip |
+| **matplotlib** | 3.5.3 | pip |
+| **imageio** | 2.9.0 | pip |
+| **pandas** | 1.3.5 | pip |
+| **pyshp** | 2.1.3 | pip |
+| **Sphinx** | 5.0.2 | pip |
+| **nbsphinx** | 0.9.7 | pip |
+| **ipykernel** | 6.16.2 | pip |
+
   
   简要步骤如下：  
 
