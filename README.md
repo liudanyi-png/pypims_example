@@ -23,7 +23,9 @@ pypims安装及模拟嘉峪关淹没参考代码
 | **sphinx-rtd-theme** | 2.0.0 | pip |
 | **nbsphinx** | 0.9.7 | pip |
 | **ipykernel** | 6.16.2 | pip |  
-简要步骤如下：  
+  
+  
+  简要步骤如下：  
 
 * **依次安装所需软件**
   Miniconda、Git、Visual Studio、NVIDIA CUDA Toolkit。
